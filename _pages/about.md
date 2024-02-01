@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='www.uct.ac.za'>University of Cape Town</a>. Electrical engineer at the University of Cape Town.
+subtitle: <a Electrical engineer at the University of Cape Town. #href='www.uct.ac.za'>University of Cape Town</a>. 
 
 profile:
   align: right

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Electrical engineer at the University of Cape Town.
 
 profile:
   align: right
@@ -19,7 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi. I'm a research student at the University of Cape Town's Digital Image Processing Laboratory within the Department of Electrical Engineering. Strong interests in microscopy, fluid stream analysis, optics, computer vision, machine learning, PCB design, and electronics. Although my time is often spend in laboratories, I am also enjoy field testing and deployment of solutions. 
+Hi. I'm a research student at the University of Cape Town's Digital Image Processing Laboratory within the Department of Electrical Engineering. I hold a Bachelor of Engineering (Electrical and Computer) Hons from the University of Cape Town.
+
+My research interests include microscopy, fluid stream analysis, optics, computer vision, machine learning, PCB design, and electronics. Although my time is often spend in laboratories, I am also enjoy field testing and deployment of solutions. 
 
 
 <!-- The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

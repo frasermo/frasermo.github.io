@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Electrical engineer at the University of Cape Town.
+subtitle: <a href='www.uct.ac.za'>University of Cape Town</a>. Electrical engineer at the University of Cape Town.
 
 profile:
   align: right

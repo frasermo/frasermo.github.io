@@ -1,23 +1,23 @@
- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Fraser Montandon
-    # - name: Date of Birth
-    #   value: 14th March 1879
-    - name: Languages
-      value: English
+#  title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Fraser Montandon
+#     # - name: Date of Birth
+#     #   value: 14th March 1879
+#     - name: Languages
+#       value: English
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Science (Engineering) Electrical and Computer
-      institution: University of Cape Town, South africa
-      year: 2021
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Bachelor of Science (Engineering) Electrical and Computer
+#       institution: University of Cape Town, South africa
+#       year: 2021
+#       description:
+#         - Description 1.
+#         - Description 2.
+#         - title: Description 3.
           # contents:
           #   - Sub-description 1.
           #   - Sub-description 2.

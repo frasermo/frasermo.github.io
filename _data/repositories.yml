@@ -1,6 +1,6 @@
-github_users:
-  - frasermo
+# github_users:
+#   - frasermo
 
 github_repos:
-  - jekyll/jekyll
+ - frasermo
 

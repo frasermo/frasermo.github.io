@@ -1,0 +1,54 @@
+{
+  "basics": {
+    "name": "Fraser Montandon",
+    "image": "",
+    "email": "fraser@frasermontandon.com",
+    "url": "https://www.frasermontandon.com",
+    "summary": "Electrical Engineer",
+    "location": {
+      "address": "Digital Image Processing Laboratory, University of Cape Town",
+      "postalCode": "7700",
+      "city": "Cape Town",
+      "countryCode": "South Africa"
+    },
+  // "work": [
+  //   {
+  //     "name": "Institute for Advanced Study, Princeton University",
+  //     "position": "Professor of Theoretical Physics",
+  //     "url": "https://example.com",
+  //     "startDate": "1933-01-01",
+  //     "endDate": "1955-01-01",
+  //     "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+  //     "highlights": ["Relativity"]
+  //   }
+  // ],
+  "education": [
+    {
+      "institution": "University of Cape Town",
+      "location": "Cape Town, South Africa",
+      "url": "https://www.uct.ac.za/",
+      "area": "Electrical and Computer",
+      "studyType": "Bachelor of Science (Engineering)",
+      //"startDate": "1905-01-01",
+      "endDate": "2021"
+      //"score": "10",
+      //"courses": ["Theory of Relativity"]
+    }
+  ],
+  // "awards": [
+  //   {
+  //     "title": "Nobel Prize in Physics",
+  //     "date": "1921-11-01",
+  //     "awarder": "Royal Swedish Academy of Sciences",
+  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //   }
+  // ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ]
+}

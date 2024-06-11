@@ -1,0 +1,90 @@
+{
+  "basics": {
+    "name": "Fraser Montandon",
+    "nationality": "Swiss and South African",
+    "image": "",
+    "email": "fraser.montandon@gmail.com",
+    "phone": "",
+    "url": "https://www.frasermontandon.com",
+    "address": "Digital Image Processing Laboratory, University of Cape Town, South Africa",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work Experience": [
+    {
+      "name": "Electrical Engineering, University of Cape Town",
+      "position": "Lecturer - EEE3090F",
+      "startDate": "2024",
+      "endDate": ""
+    },
+    {
+      "name": "Electrical Engineering, University of Cape Town",
+      "position": "Teaching Assistant - EEE3089F",
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "name": "Electrical Engineering, University of Cape Town",
+      "position": "Teaching Assistant - EEE4122C",
+      "startDate": "2022",
+      "endDate": "2022"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Cape Town",
+      "area": "MSc Electrical Engineering",
+      "studyType": "Masters",
+      "startDate": "2022",
+      "endDate": "2024"
+    },
+    {
+      "institution": "University of Cape Town",
+      "area": "BSc(Eng) Electrical and Computer Engineering",
+      "studyType": "Undergraduate",
+      "startDate": "2018",
+      "endDate": "2021"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Vice-Chancellor's Research Scholarship",
+      "date": "2023",
+      "awarder": "University of Cape Town"
+  },
+  {
+    "title": "Masters Research Scholarship",
+    "date": "2023",
+    "awarder": "University of Cape Town"
+},
+{
+  "title": "Electrical Engineering Marine Robotics Scholarship",
+  "date": "2023",
+  "awarder": "University of Cape Town"
+},
+{
+  "title": "Electrical Engineering Marine Robotics Scholarship",
+  "date": "2022",
+  "awarder": "University of Cape Town"
+}
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker",
+      "icon": ""
+    }
+  ]
+}

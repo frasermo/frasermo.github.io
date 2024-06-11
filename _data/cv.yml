@@ -1,0 +1,30 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Fraser Montandon
+    - name: Nationality
+      value: South African and Swiss
+    - name: Languages
+      value: English (fluent)
+
+- title: Research Areas
+  type: list
+  contents:
+    - My research includes computer vision, digital holography, optoelectronics, polarisation microscopy, and machine learning.
+
+- title: Education
+  type: table
+  contents:
+    - row:
+        - University of Cape Town – M.Sc. in Electrical Engineering.
+        - 2022-2024
+        - Thesis: Fluid stream.
+    - row:
+        - University of Cape Town – B.Sc. in Electrical and Computer Engineering.
+        - 2018-2021
+        - Thesis: Fluid stream.
+    - row:
+        - University of South Africa (UNISA) – B.Com. in Financial Management.
+        - 2007-2011
+        - Bachelor's degree.

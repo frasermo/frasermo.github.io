@@ -6,7 +6,7 @@
     "email": "fraser.montandon@gmail.com",
     "phone": "",
     "url": "https://www.frasermontandon.com",
-    "address": "Digital Image Processing Laboratory, University of Cape Town, South Africa",
+    "address": "Cape Town, South Africa",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,16 +24,28 @@
   },
   "work Experience": [
     {
-      "name": "Electrical Engineering, University of Cape Town",
-      "position": "Lecturer - EEE2042S",
-      "startDate": "2024",
+      "name": "Direct Data Digital",
+      "position": "Owner and Automotive Electronic Engineer",
+      "startDate": "2022",
       "endDate": ""
     },
     {
       "name": "Electrical Engineering, University of Cape Town",
       "position": "Lecturer - EEE3090F",
-      "startDate": "2024",
+      "startDate": "2025",
       "endDate": ""
+    },
+    {
+      "name": "Electrical Engineering, University of Cape Town",
+      "position": "Lecturer - EEE2042S",
+      "startDate": "2024",
+      "endDate": "2024"
+    },
+    {
+      "name": "Electrical Engineering, University of Cape Town",
+      "position": "Lecturer - EEE3090F",
+      "startDate": "2024",
+      "endDate": "2024"
     },
     {
       "name": "Electrical Engineering, University of Cape Town",
@@ -51,6 +63,13 @@
   "education": [
     {
       "institution": "University of Cape Town",
+      "area": "PhD Electrical Engineering Student",
+      "studyType": "PhD",
+      "startDate": "2024",
+      "endDate": ""
+    },
+    {
+      "institution": "University of Cape Town",
       "area": "MSc(Eng) Electrical",
       "studyType": "Masters",
       "startDate": "2022",
@@ -65,6 +84,11 @@
     }
   ],
   "awards": [
+    {
+      "title": "Electrical Engineering Marine Robotics Scholarship",
+      "date": "2024",
+      "awarder": "University of Cape Town"
+    },
     {
       "title": "Vice-Chancellor's Research Scholarship",
       "date": "2023",

@@ -21,7 +21,7 @@ nav_order: 6
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">2025 - Present: Assistant Lecturer</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">2024 - Present: Assistant Lecturer</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">Undergraduate-level electrical engineering course.</li>
     </ul>

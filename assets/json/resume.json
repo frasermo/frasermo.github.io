@@ -31,19 +31,13 @@
     },
     {
       "name": "Electrical Engineering, University of Cape Town",
-      "position": "Lecturer - EEE3090F",
-      "startDate": "2025",
+      "position": "Assistant Lecturer - EEE3090F",
+      "startDate": "2024",
       "endDate": ""
     },
     {
       "name": "Electrical Engineering, University of Cape Town",
-      "position": "Lecturer - EEE2042S",
-      "startDate": "2024",
-      "endDate": "2024"
-    },
-    {
-      "name": "Electrical Engineering, University of Cape Town",
-      "position": "Lecturer - EEE3090F",
+      "position": "Assistant Lecturer - EEE2042S",
       "startDate": "2024",
       "endDate": "2024"
     },
@@ -81,6 +75,13 @@
       "studyType": "Undergraduate",
       "startDate": "2018",
       "endDate": "2021"
+    },
+    {
+      "institution": "University of South Africa",
+      "area": "BCom Financial Management",
+      "studyType": "Undergraduate",
+      "startDate": "2007",
+      "endDate": "2017"
     }
   ],
   "awards": [

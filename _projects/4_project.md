@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DIH hardware
+title: DIH
 description: A lensless imaging configuration for digital inline holography.
 img: assets/img/Lensless.jpg
 redirect: https://frasermontandon.com/projects/

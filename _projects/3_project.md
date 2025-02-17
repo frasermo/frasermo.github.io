@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: SSB
+description: A spectral sensing board for photodiodes.
+img: assets/img/Sensorboard.png
+redirect: https://frasermontandon.com/projects/
 importance: 3
 category: work
 ---

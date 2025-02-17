@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: IFC
+description: An imaging flow cytometer.
+img: assets/img/IFC.jpg
+redirect: https://frasermontandon.com/projects/
 importance: 3
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

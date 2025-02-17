@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: LPE
+description: A light pulse engine for controlling a bank of laser diodes.
+img: assets/img/LPE.png
+redirect: https://frasermontandon.com/projects/
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

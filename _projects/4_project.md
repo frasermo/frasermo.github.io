@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: DIH hardware
+description: A lensless imaging configuration for digital inline holography.
+img: assets/img/Lensless.jpg
+redirect: https://frasermontandon.com/projects/
 importance: 3
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

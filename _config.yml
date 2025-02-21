@@ -229,7 +229,7 @@ keep_files:
   - CNAME
   - .nojekyll
 
-# Plug-ins
+# Plug-in
 plugins:
   - jekyll-archives
   - jekyll-email-protect

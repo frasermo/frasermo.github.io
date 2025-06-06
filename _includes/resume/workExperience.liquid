@@ -11,17 +11,22 @@
           {% assign displayEnd = '' %}
 
           {% if rawStart != '' %}
-            {% assign displayStart = rawStart | split: '-' | slice: 0, 2 | join: '.' %}
+            {% assign startYear = rawStart | split: '-' | first %}
+            {% assign startMonth = rawStart | split: '-' | slice: 1, 1 | first %}
+            {% assign displayStart = startYear | append: '.' | append: startMonth %}
           {% endif %}
 
           {% if rawEnd != '' %}
-            {% assign displayEnd = rawEnd | split: '-' | slice: 0, 2 | join: '.' %}
+            {% assign endYear = rawEnd | split: '-' | first %}
+            {% assign endMonth = rawEnd | split: '-' | slice: 1, 1 | first %}
+            {% assign displayEnd = endYear | append: '.' | append: endMonth %}
           {% else %}
+            {% assign endYear = '' %}
             {% assign displayEnd = 'Present' %}
           {% endif %}
 
-          {% if rawStart != '' and rawStart == rawEnd %}
-            {% assign date = displayStart %}
+          {% if startYear != '' and startYear == endYear %}
+            {% assign date = startYear %}
           {% elsif rawStart != '' %}
             {% assign date = displayStart | append: ' - ' | append: displayEnd %}
           {% else %}

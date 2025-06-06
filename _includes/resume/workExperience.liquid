@@ -4,20 +4,28 @@
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
-          {% if content.startDate %}
-            {% assign rawStart = content.startDate | default: '' %}
-            {% assign rawEnd = content.endDate | default: 'Present' %}
+          {% assign rawStart = content.startDate | default: '' %}
+          {% assign rawEnd = content.endDate | default: '' %}
 
+          {% assign displayStart = '' %}
+          {% assign displayEnd = '' %}
+
+          {% if rawStart != '' %}
             {% assign displayStart = rawStart | split: '-' | slice: 0, 2 | join: '.' %}
-            {% assign displayEnd = rawEnd | split: '-' | slice: 0, 2 | join: '.' %}
+          {% endif %}
 
-            {% if rawStart == rawEnd %}
-              {% assign date = displayStart %}
-            {% else %}
-              {% assign date = displayStart | append: ' - ' | append: displayEnd %}
-            {% endif %}
+          {% if rawEnd != '' %}
+            {% assign displayEnd = rawEnd | split: '-' | slice: 0, 2 | join: '.' %}
           {% else %}
-            {% assign date = '' %}
+            {% assign displayEnd = 'Present' %}
+          {% endif %}
+
+          {% if rawStart != '' and rawStart == rawEnd %}
+            {% assign date = displayStart %}
+          {% elsif rawStart != '' %}
+            {% assign date = displayStart | append: ' - ' | append: displayEnd %}
+          {% else %}
+            {% assign date = displayEnd %}
           {% endif %}
           <table class="table-cv">
             <tbody>

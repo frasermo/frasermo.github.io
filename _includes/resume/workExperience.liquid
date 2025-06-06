@@ -4,30 +4,22 @@
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
-          {% assign rawStart = content.startDate | default: '' %}
+         {% assign rawStart = content.startDate | default: '' %}
           {% assign rawEnd = content.endDate | default: '' %}
 
-          {% assign displayStart = '' %}
-          {% assign displayEnd = '' %}
+          {% assign startYear = rawStart | split: '-' | first %}
+          {% assign endYear = rawEnd | split: '-' | first %}
 
-          {% if rawStart != '' %}
-            {% assign startYear = rawStart | split: '-' | first %}
-            {% assign startMonth = rawStart | split: '-' | slice: 1, 1 | first %}
-            {% assign displayStart = startYear | append: '.' | append: startMonth %}
-          {% endif %}
+          {% assign displayStart = rawStart %}
+          {% assign displayEnd = rawEnd %}
 
-          {% if rawEnd != '' %}
-            {% assign endYear = rawEnd | split: '-' | first %}
-            {% assign endMonth = rawEnd | split: '-' | slice: 1, 1 | first %}
-            {% assign displayEnd = endYear | append: '.' | append: endMonth %}
-          {% else %}
-            {% assign endYear = '' %}
+          {% if rawEnd == '' %}
             {% assign displayEnd = 'Present' %}
           {% endif %}
 
           {% if startYear != '' and startYear == endYear %}
             {% assign date = startYear %}
-          {% elsif rawStart != '' %}
+          {% elsif startYear != '' %}
             {% assign date = displayStart | append: ' - ' | append: displayEnd %}
           {% else %}
             {% assign date = displayEnd %}
